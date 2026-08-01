@@ -1,0 +1,14 @@
+{
+  "name": "speakeo-audio",
+  "version": "1.0.0",
+  "description": "Audio files for Speakeo tongue twisters",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-audio.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.19.0"
+  }
+}

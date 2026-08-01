@@ -1,0 +1,7 @@
+# Cache les fichiers audio pendant 1 an
+/v1/**/*.mp3
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache l'index pendant 1 heure
+/v1/index.json
+  Cache-Control: public, max-age=3600
