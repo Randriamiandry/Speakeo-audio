@@ -1,0 +1,7 @@
+# Ignorer les dépendances et scripts
+node_modules/
+package-lock.json
+package.json
+scripts/
+.DS_Store
+*.log
